@@ -1,0 +1,13 @@
+{
+  "name": "central-ia",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Central IA: ferramentas, tutoriais e laboratório de sites com revisão manual por IA.",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
